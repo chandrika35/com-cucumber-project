@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7664512500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should Navigate to Interruption Page Successfully",
+        "description": "",
+        "id": "home-page-test;user-should-navigate-to-interruption-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 686758100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123641000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122910800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Accept Cookies Button",
+            "match": {
+              "location": "HomePageSteps.iClickOnAcceptCookiesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164501300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Join Now Button",
+            "match": {
+              "location": "HomePageSteps.iClockOnJoinNowButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should Navigate to Interruption Page",
+            "match": {
+              "location": "HomePageSteps.iShouldNavigateToInterruptionPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to click on Pocker Tab",
+            "match": {
+              "location": "HomePageSteps.iShouldBeAbleToClickOnPockerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to verify the text Play our exciting Online Pocker Games",
+            "match": {
+              "location": "HomePageSteps.iShouldBeAbleToVerifyTheTextPlayOurExcitingOnlinePockerGames()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sanity"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Test",
+    "description": "",
+    "id": "home-page-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
